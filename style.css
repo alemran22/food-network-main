@@ -93,3 +93,10 @@ header li {
   padding: 15px;
   text-align: center;
 }
+
+footer {
+  background-color: rgb(243, 240, 240);
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 1.6%;
+}
