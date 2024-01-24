@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 body {
@@ -35,10 +34,8 @@ p {
   color: orange;
 }
 
-header li {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+nav {
+  text-align: right;
 }
 
 .eat-healthy-section {
@@ -56,14 +53,13 @@ header li {
   text-align: center;
   align-items: center;
   background-color: antiquewhite;
-
+  background-image: url(images/shapes/7.png);
+  background-repeat: no-repeat;
 }
 
 .about-section div img {
   width: 50%;
 }
-
-
 
 .recipe-heading {
   text-align: center;
@@ -73,13 +69,11 @@ header li {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-
 }
 
 .width-30 {
   margin: 10px;
   box-shadow: 0 20px 30px 0 rgba(45, 43, 43, 0.12);
-  ;
   border-radius: 10px;
   background-color: cornsilk;
 }
@@ -99,4 +93,12 @@ footer {
   display: flex;
   justify-content: space-around;
   margin: 25px 1.6%;
+}
+
+.footer-section {
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  color: azure;
+  padding: 15px;
 }
